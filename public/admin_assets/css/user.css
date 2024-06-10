@@ -1,0 +1,43 @@
+
+.overflow-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+label em {
+    color: #ec1b24;
+}
+
+#sidebar-menu > ul > li > a:hover,
+#sidebar-menu .menuitem-active .active {
+    color: #3399CC;
+}
+
+a {
+    color: #0095da;
+}
+
+a:hover {
+    color: #3399CC;
+}
+
+.table .table-user {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+}
+
+.filter .collapse {
+    margin-bottom: 1.5rem;
+}
+
+.ajax-loader {
+    position: absolute;
+    background: #0000000a;
+    width: 100%;
+    height: 100%;
+    padding-top: 4rem;
+    text-align: center;
+    display: none;
+}
